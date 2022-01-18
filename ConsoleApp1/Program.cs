@@ -22,7 +22,7 @@ namespace ConstStaticReadOnly
         {
             StaticReadOnly stReadObj = new StaticReadOnly();
             Console.WriteLine(String.Format("ReadOnly Value : {0}", stReadObj.iReadOnly));
-            Console.WriteLine(String.Format("Static ReadOnly Value : {0}", StaticReadOnly.istaticReadOnly));
+            Console.WriteLine(String.Format("Hello Static ReadOnly Value : {0}", StaticReadOnly.istaticReadOnly));
         }
     }
 }
